@@ -43,6 +43,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
     // Annotation processor
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    // Extensions
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
     // Room components
     implementation "androidx.room:room-runtime:$room_version"
